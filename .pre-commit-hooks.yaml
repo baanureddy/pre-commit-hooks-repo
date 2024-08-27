@@ -1,0 +1,5 @@
+- id: server-check
+  name: Server Check
+  entry: python3 pre-commit-hook-scan-from-server.py
+  language: python
+  files: .*
